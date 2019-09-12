@@ -10,8 +10,8 @@ var people = [
 var nameFilter = function(filteredName) {
     for (var i = 0; i < people.length; i++) {
         let name = people[i].name
-        if (people != filteredName) {
-            console.log("My Name is " + name)
+        if (name != filteredName) {
+            console.log("My name is " + name)
         }
 
     }
