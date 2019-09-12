@@ -7,14 +7,14 @@ var people = [
     { name: "Betty", age: 37 }
     ]
 
-var nameFilter = function(filteredName) {
+var nameFilter = function(leftOut) {
     var results = []
     for (var i = 0; i < people.length; i++) {
-        let name = people[i].name
-        if (name != filteredName) {
+        let name = people[i].name;
+        if (name != leftOut) {
             results.push(name)
         }
-    }
+    } return results;
 }
 
 var filteredNames = nameFilter("Betty")
