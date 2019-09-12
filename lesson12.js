@@ -1,4 +1,5 @@
-//Desired result Print out all names except the name passed into the function 
+//Desired result Print out all names except the name 
+//passed into the function 
 
 var people = [
     { name: "John", age: 55 },
@@ -16,8 +17,9 @@ var nameFilter = function(filteredName) {
     }
     return results
 }
+
+var currentName = "Betty";
 var selectName = function() {
-    var currentName = "Betty";
     return currentName
 }
 var filteredNames = nameFilter(currentName)

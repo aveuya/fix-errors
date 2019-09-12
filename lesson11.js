@@ -14,7 +14,8 @@ var nameFilter = function(leftOut) {
         if (name != leftOut) {
             results.push(name)
         }
-    } return results;
+    } 
+    return results;
 }
 
 var filteredNames = nameFilter("Betty")
